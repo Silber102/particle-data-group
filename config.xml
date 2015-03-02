@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
 		xmlns:gap = "http://phonegap.com/ns/1.0"
-		id        = "gov.lbl.physics"
+		id        = "gov.lbl.pdg”
 		versionCode="1"
 		version   = "1.0.0">
-		<name>testpdg</name>
+		<name>Particle Data Group</name>
 		<description>
 The Particle Data Group is an international collaboration charged with summarizing Particle Physics, as well as related areas of Cosmology and Astrophysics. In 2014, the PDG consists of 206 authors from 140 institutions in 24 countries.		</description>
 		<author href="http://pdg.lbl.gov" email="pdschaffner@lbl.gov">Paul Schaffner
