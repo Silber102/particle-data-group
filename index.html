@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta name="viewport"  content="width=520">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<title>PDG App</title>
+</head>
+
+<body>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#GaugeHiggs-Head").click(function(){
+		$("#GaugeHiggs-Content").slideToggle();
+		if ($("#GaugeHiggs-Sign").text() == "[+]"){
+			$("#GaugeHiggs-Sign").html("[-]")
+		}
+		else {
+			$("#GaugeHiggs-Sign").text("[+]")
+		}
+	});
+});
+</script>
+<div align="center"><img src="images/logo.png" /></div>
+
+<div id="navcontainer">
+	<ul id="navlist">
+    	<li><a href="http://pdg8.lbl.gov/rpp2014v1/pdgLive/Viewer.action">pdg<span style="color:#FF3838;">Live</span> - Interactive Listings</a></li>
+    	<li><a href="summary-tables/index.html">Summary Tables </a></li>
+        <li><a href="reviews/index.html">Reviews, Tables, Plots5</a></li>
+        <li><a href="listings/index.html">Particle Listings</a></li>
+    </ul>
+
+	
+  <table style="-webkit-box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.59);
+box-shadow: 0px 8px 17px 0px rgba(0,0,0,0.59);padding:0px;margin-left:0px;margin-top:5px;background:none;width:100%;">
+        	<tr>
+            	<td width="48%" valign="top">
+                <ul id="navlist-2">
+                    <li><a href="">About PDG</a></li>
+                    <li><a href="">PDG Authors </a></li>
+                </ul>
+        		</td>
+                <td width="48%" valign="top">
+                <ul id="navlist-3">
+                    <li><a href="">PDG Citation</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    
+                </ul>
+        		</td>
+            </tr>
+        </table>
+   
+</div>
+<p>
+<div id="main-content">
+	<div align="center">
+		Funded by:<br />
+        <a class="linkgrey" href="http://www.energy.gov/">US&nbsp;DOE</a>&nbsp;|
+        <a class="linkgrey" href="http://www.cern.ch/">CERN</a>&nbsp;|
+        <a class="linkgrey" href="http://www.mext.go.jp/english/">MEXT&nbsp;(Japan)</a>
+        <br /> 
+        <a class="linkgrey" href="http://www.infn.it/">INFN&nbsp;(Italy)</a>&nbsp;|
+        <a class="linkgrey" href="http://www.mec.es/">MEC&nbsp;(Spain)</a>&nbsp;| 
+        <a class="linkgrey" href="http://www.ihep.su/">IHEP&nbsp;&amp;&nbsp;RFBR&nbsp;(Russia)</a>
+    </div>
+
+</div>
+   
+<p>                                           
+       <div align="center"><span style="font-family:Verdana, Geneva, sans-serif; font-size:10px; color:#ccc;">
+                        &#169; 2015 Regents of the University of California
+                    </span></div>                                         
+</body>
+</html>

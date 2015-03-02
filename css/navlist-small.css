@@ -1,0 +1,85 @@
+#navcontainer-small
+{
+width:100%;
+padding: 1em 0;
+text-align: center;
+
+}
+
+ul#navlist-small
+{
+text-align: left;
+list-style: none;
+padding: 0;
+margin: 0 auto;
+width: 100%;
+-webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
+box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
+}
+
+ul#navlist-small li
+{
+display: block;
+margin: 0;
+padding: 0;
+
+}
+hr {
+	color:#ccc;
+}
+ul#navlist-small li a
+{
+display: block;
+width: 100%;
+padding: 1em 0 1em 2em;
+border-width: 1px;
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+border-color: #ccc;
+border-style: solid;
+color: #333;
+
+text-decoration: none;
+/*background: #3366FF;*/
+font-size:13px;
+font-family:Verdana, Geneva, sans-serif;
+background: #7db9e8; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #7db9e8 0%, #2989d8 48%, #2989d8 48%, #1e5799 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#7db9e8), color-stop(48%,#2989d8), color-stop(48%,#2989d8), color-stop(100%,#1e5799)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, #7db9e8 0%,#2989d8 48%,#2989d8 48%,#1e5799 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, #7db9e8 0%,#2989d8 48%,#2989d8 48%,#1e5799 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, #7db9e8 0%,#2989d8 48%,#2989d8 48%,#1e5799 100%); /* IE10+ */
+background: linear-gradient(135deg, #7db9e8 0%,#2989d8 48%,#2989d8 48%,#1e5799 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+ul#navlist-small .secondary{
+display: block;
+width: 100%;
+padding: 1em 0 1em 2em;
+border-width: 1px;
+border-left: 0px;
+border-right: 0px;
+border-color: #fff;
+border-style: solid;
+color: #49b1e4;
+text-decoration: none;
+background: #004263;
+}
+
+#navcontainer-small>ul#navlist-small li a { width: auto; }
+
+ul#navlist-small li#active a
+{
+background: #004263;
+color: #ccc;
+}
+ul#navlist-small li a:hover, ul#navlist-small li#active a:hover
+{
+color: #49b1e4;
+background: #004263;
+border-color: #fff;
+}

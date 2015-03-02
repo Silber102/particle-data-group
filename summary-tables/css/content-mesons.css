@@ -1,0 +1,26 @@
+#content-link-mesons {
+	float:left;
+	width:auto;
+	color:#fff;
+	position:relative;
+	text-decoration: none;
+	/*background: #3366FF;*/
+	font-family:Verdana, Geneva, sans-serif;
+	/*font-size:13px;*/
+	bottom:240px;
+	left:150px;
+}
+#content-link-mesons a{
+	color:#fff;
+	text-decoration: none;
+	font-family:Verdana, Geneva, sans-serif;
+	display:block;
+	padding-top:14px;
+	padding-bottom:14px;	
+}
+#content-link-mesons a:hover
+{
+color: #49b1e4;
+border-color: #fff;
+background: #004263;
+}

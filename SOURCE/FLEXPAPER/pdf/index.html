@@ -1,0 +1,68 @@
+<!doctype html>
+	<html>
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<meta name="viewport" content="initial-scale=1,user-scalable=0,maximum-scale=1,width=device-width" />			<style type="text/css" media="screen">
+				html, body	{ height:100%; }
+				body { margin:0; padding:0; overflow:auto; }
+				#flashContent { display:none; }
+			</style>
+			<link rel="stylesheet" type="text/css" href="css/flexpaper.css?r43209" />
+			<script type="text/javascript" src="js/jquery.min.js?r43209"></script>
+			<script type="text/javascript" src="js/jquery.extensions.min.js?r43209"></script>
+			<!--[if gte IE 9 | !IE ]><!-->
+			<script type="text/javascript" src="js/three.min.js?r43209"></script>
+			<!--<![endif]-->
+			<script type="text/javascript" src="js/flexpaper.js?r43209"></script>
+			<script type="text/javascript" src="js/flexpaper_handlers.js?r43209"></script>
+		</head>
+		<body>
+				<div id="documentViewer" class="flexpaper_viewer" style="position:absolute;;width:100%;height:100%;background-color:#222222;;"></div>
+				<script type="text/javascript">
+					$('#documentViewer').FlexPaperViewer(
+								                  	 { config : {
+																   
+									                     SWFFile : '{docs/rpp2014-sum-gauge-higgs-bosons-small.pdf_[*,0].swf,8}',
+									                     IMGFiles : 'docs/rpp2014-sum-gauge-higgs-bosons-small.pdf_{page}.jpg',
+									                     JSONFile : 'docs/rpp2014-sum-gauge-higgs-bosons-small.pdf_{page}.js',
+									                     PDFFile : 'docs/rpp2014-sum-gauge-higgs-bosons-small_[*,2].pdf',
+									                     ThumbIMGFiles : 'docs/rpp2014-sum-gauge-higgs-bosons-small.pdf_{page}_thumb.jpg',
+																   						
+									                     Scale : 0.6,
+									                     ZoomTransition : 'easeOut',
+									                     ZoomTime : 0.5,
+									                     ZoomInterval : 0.1,
+									                     FitPageOnLoad : true,
+									                     FitWidthOnLoad : false,
+									                     AutoAdjustPrintSize : true,
+									                     PrintPaperAsBitmap : false,
+									                     AutoDetectLinks :true,
+									                     FullScreenAsMaxWindow : false,
+									                     ProgressiveLoading : false,
+									                     MinZoomSize : 0.3,
+									                     MaxZoomSize : 5,
+									                     SearchMatchAll : true,
+									                     InitViewMode : 'Portrait',
+									                     RenderingOrder : 'html5,flash',
+									                     StartAtPage : 1,
+									                     MixedMode : true,
+														 EnableWebGL : true,
+									                     PublicationTitle : '',
+																   						
+									                     ViewModeToolsVisible : true,
+									                     ZoomToolsVisible : true,
+									                     NavToolsVisible : true,
+									                     CursorToolsVisible : true,
+									                     SearchToolsVisible : true,
+																   						
+									                     UIConfig : 'UIConfig_rpp2014-sum-gauge-higgs-bosons-small.pdf.xml?r43209',
+									                     WMode : 'transparent',
+																   						
+									                     key : '#V2ZzfWBFXlpcSRhwBElCVlVaYA',
+									                     localeChain: 'en_US'
+									                   }}
+									            );
+
+		var url = window.location.href.toString();if(location.length==0){url = document.URL.toString();}		if(url.indexOf("file:")>=0){			jQuery('#documentViewer').html("<div style='position:relative;background-color:#ffffff;width:420px;font-family:Verdana;font-size:10pt;left:22%;top:20%;padding: 10px 10px 10px 10px;border-style:solid;border-width:5px;'><img src='data:image/gif;base64,R0lGODlhEAAPAMQPAPS+GvXAIfrjnP/89vnZePrhlvS9F//+/PrfjfS/HfrgkPS+GP/9+YJiACAYAP////O3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAA8ALAAAAAAQAA8AAAVQ4COOD0GQKElA0JmSg7EsxvCOCMsi9xPrkNpNwXI0WIoXA1A8QgCMVEFn1BVQS6rzGR1NtcCriJEAVnWJrgDI1gkehwD7rAsc1u28QJ5vB0IAOw%3D%3D'>&nbsp;<b>You are trying to use FlexPaper from a local directory.</b><br/><br/> Use the 'View in browser' button in the Desktop Publisher publish & preview dialog window to preview your publication or copy the contents of your publication directory to a web server and access this html file through a http:// url.</div>");		}		</script>
+		</body>
+	</html>

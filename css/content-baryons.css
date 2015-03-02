@@ -1,0 +1,33 @@
+#content-link-baryons {
+	float:left;
+	width:auto;
+	color:#fff;
+	position:relative;
+	text-decoration: none;
+	/*background: #3366FF;*/
+	font-family:Verdana, Geneva, sans-serif;
+	/*font-size:13px;*/
+	bottom:236px;
+	left:150px;
+	
+	
+}
+#content-link-baryons a{
+	color:#fff;
+	
+	text-decoration: none;
+	font-family:Verdana, Geneva, sans-serif;
+	display:block;
+	padding-top:14px;
+	padding-bottom:14px;
+	
+}
+#content-link-baryons a:hover
+{
+color: #49b1e4;
+background: #004263;
+border-color: #fff;
+}
+#clear {
+	clear:both;
+}
