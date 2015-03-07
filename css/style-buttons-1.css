@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* CSS Document */
+
+ul#navlist-1
+{
+text-align: left;
+list-style: none;
+padding: 0;
+margin: 0 auto;
+width: 100%;
+-webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
+box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
+}
+
+ul#navlist-1 li
+{
+display: block;
+
+margin: 0;
+padding: 0;
+font-size:.80em;
+
+}
+
+ul#navlist-1 li a
+{
+display: block;
+width: 100%;
+font-weight:normal;
+padding: 1.5em 0 1.5em 2em;
+border-width: 1px;
+border-bottom: 0px;
+border-left: 0px;
+border-right: 0px;
+border-color: #c8e4fd;
+border-style: solid;
+color: #c8e4fd;
+text-decoration: none;
+/*background: #3366FF;*/
+font-family:Verdana, Geneva, sans-serif;
+background: rgb(21,39,61); /* Old browsers */
+
+background: -moz-linear-gradient(left,  rgba(21,39,61,1) 0%, rgba(60,93,132,1) 100%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(21,39,61,1)), color-stop(100%,rgba(60,93,132,1))); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(left,  rgba(21,39,61,1) 0%,rgba(60,93,132,1) 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(left,  rgba(21,39,61,1) 0%,rgba(60,93,132,1) 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(left,  rgba(21,39,61,1) 0%,rgba(60,93,132,1) 100%); /* IE10+ */
+
+background: linear-gradient(to right,  rgba(21,39,61,1) 0%,rgba(60,93,132,1) 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15273d', endColorstr='#3c5d84',GradientType=1 ); /* IE6-9 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ul#navlist-1 .secondary{
+display: block;
+width: 100%;
+padding: 1em 0 1em 2em;
+border-width: 1px;
+border-left: 0px;
+border-right: 0px;
+border-color: #fff;
+border-style: solid;
+color: #49b1e4;
+text-decoration: none;
+background: #004263;
+}
+
+#navcontainer>ul#navlist-1 li a { width: auto; }
+
+ul#navlist-1 li#active a
+{
+background: #004263;
+color: #ccc;
+}
+ul#navlist-1 li a:hover, ul#navlist-1 li#active a:hover
+{
+color: #49b1e4;
+background: #004263;
+border-color: #fff;
+}
