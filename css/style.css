@@ -13,7 +13,7 @@ body {
 #main-content {
     font-family:Verdana, Geneva, sans-serif;
 	color:#eee;
-	font-size:.70em;
+	/*font-size:.70em;*/
     padding:4px;  
 }
 #space {
@@ -64,7 +64,7 @@ display: block;
 
 margin: 0;
 padding: 0;
-font-size:1em;
+font-size:1.1em;
 
 }
 
@@ -72,7 +72,7 @@ ul#navlist li a
 {
 display: block;
 width: 100%;
-padding: 1.24em 0 1.24em 2em;
+padding: 1.1em 0 1.1em 1.3em;
 border-width: 1px;
 border-bottom: 0px;
 border-left: 0px;
