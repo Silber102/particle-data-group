@@ -6,7 +6,7 @@
 		version   = "1.0.0">
 		<name>Particle Data Group</name>
 		<description>
-The Particle Data Group is an international collaboration charged with summarizing Particle Physics, as well as related areas of Cosmology and Astrophysics. In 2014, the PDG consists of 206 authors from 140 institutions in 24 countries.		</description>
+The Particle Data Group is an international collaboration charged with summarizing Particle Physics, as well as related areas of Cosmology and Astrophysics. In 2014, the PDG consists of 206 authors from 140 institutions in 24 countries.</description>
 		<author href="http://pdg.lbl.gov" email="pdschaffner@lbl.gov">Paul Schaffner
 		</author>
 		<icon src="icon1.png" />
