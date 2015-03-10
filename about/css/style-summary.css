@@ -36,10 +36,54 @@ body {
 p {
 	
 }
+h2 {
+	margin:0px 0px 3px 0px;
+}
 #titlearea {
 	width:100%;
 	background:#3e76c9;
 	-webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
 -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
 box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
+}
+.order-button1 a{
+		display: inline-block;
+		
+		color:#fff;
+		text-decoration:none;
+		padding:8px;
+		font:Arial, Helvetica, sans-serif 12px;
+		background:#3d74c6;
+		clear:both;
+        border: 1px solid #fff;
+        -moz-box-shadow: 0px 3px 15px #ccc;
+        -webkit-box-shadow: 0px 3px 15px #ccc;
+        box-shadow: 0px 3px 15px #ccc;
+		+-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+        vertical-align:top;
+		margin-top:0px;
+		margin-bottom:0px;
+		text-align:center;
+		
+		
+}
+.order-button1 a:hover{
+		display: inline-block;
+	
+		color:#fff;
+		padding:8px;
+		font:Arial, Helvetica, sans-serif 12px;
+		background:#18407a;
+		clear:both;
+        border: 1px solid #aaaaaa;
+        -moz-box-shadow: 0px 3px 15px #444;
+        -webkit-box-shadow: 0px 3px 15px #444;
+        box-shadow: 0px 3px 15px #444;
+		+-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+        vertical-align:top;
+		
 }

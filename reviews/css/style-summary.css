@@ -43,7 +43,7 @@ width: 100%;
 -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
 -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
 box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
-font-size:11px;
+font-size:.8em;
 }
 
 ul#navlist-main li
@@ -89,6 +89,7 @@ border-left: 0px;
 border-right: 0px;
 border-color:#8ec4ff;
 border-style: solid;
+font-size:.88em;
 color:#000;
 text-decoration: none;
 background: rgb(182,217,255); /* Old browsers */
