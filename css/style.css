@@ -14,7 +14,12 @@ body {
     font-family:Verdana, Geneva, sans-serif;
 	color:#eee;
 	/*font-size:.70em;*/
-    padding:4px;  
+    padding:8px; 
+	background:#01243D;
+	/*background:#2C4565;*/
+	-webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
+box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
 }
 #space {
 	position:relative;
@@ -36,13 +41,14 @@ padding: 1em 0;
 text-align: center;
 }
 .linkgrey {
-	color:#0f3266;
-	font-size:.88em;
+	color:#6CF;
+	font-size:.82em;
 	font-family:Verdana, Geneva, sans-serif;
 	display:inline-block;
 	width:auto;
-	background:#668dc7;
-	border:1px solid #3564aa;
+	text-decoration:none;
+	/*background:#668dc7;
+	border:1px solid #3564aa;*/
 	padding:3px;
 }
 
@@ -64,15 +70,16 @@ display: block;
 
 margin: 0;
 padding: 0;
-font-size:1.1em;
+font-size:1.3em;
 
 }
 
 ul#navlist li a
 {
+	font-weight:normal;
 display: block;
 width: 100%;
-padding: 1.1em 0 1.1em 1.3em;
+padding: .8em 0 .8em .8em;
 border-width: 1px;
 border-bottom: 0px;
 border-left: 0px;
