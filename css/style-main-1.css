@@ -39,7 +39,7 @@ text-align: left;
 list-style: none;
 padding: 0;
 margin: 0 auto;
-width: 100%;
+/*width: 100%;*/
 -webkit-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
 -moz-box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
 box-shadow: 0px 4px 17px 0px rgba(0,0,0,0.59);
@@ -56,7 +56,7 @@ padding: 0;
 ul#navlist-main-1 li a
 {
 display: block;
-width: 100%;
+/*width: 100%;*/
 padding: 1.2em 0 1.2em 2em;
 border-width: 1px;
 border-bottom: 0px;
@@ -101,7 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#061d35', end
 }
 ul#navlist-main-1 .secondary{
 display: block;
-width: 100%;
+/*width: 100%;*/
 padding: 1em 0 1em 2em;
 border-top:0px;
 border-bottom:0px;
@@ -118,7 +118,7 @@ background: rgb(182,217,255); /* Old browsers */
 }
 ul#navlist-main-1 .third{
 display: block;
-width: 100%;
+/*width: 100%;*/
 padding: 1em 0 1em 2em;
 border-top:1px;
 border-bottom:0px;
