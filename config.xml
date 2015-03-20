@@ -3,7 +3,7 @@
 		xmlns:gap = "http://phonegap.com/ns/1.0"
 		id        = "gov.lbl.pdg"
 		versionCode="1"
-		version   = "1.0.2">
+		version   = "1.0.3">
 		<name>Particle Data Group</name>
 		<description>
 The Particle Data Group is an international collaboration charged with summarizing Particle Physics, as well as related areas of Cosmology and Astrophysics. In 2014, the PDG consists of 206 authors from 140 institutions in 24 countries.		</description>
