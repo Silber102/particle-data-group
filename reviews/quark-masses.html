@@ -1,0 +1,62 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Embedding a PDF using PDFObject: Simple example with basic CSS</title>
+
+<!-- This example created for PDFObject.com by Philip Hutchison (www.pipwerks.com) -->
+
+<!-- CSS for basic page styling, not related to example -->
+<link rel="stylesheet" href="css/style-summary.css" type="text/css" media="screen">
+<link href="/css/examples.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+<!--
+html {height:100%}
+#pdf {
+background:#333333;
+	height: 100%;
+	margin-top:5px;
+	border: 1px solid #6699FF;
+}
+
+#pdf p {
+   padding: 1em;
+   background:#333333;
+}
+
+#pdf object {
+   display: block;
+   border: solid 1px #666;
+   background:#333333;
+}
+
+-->
+</style>
+
+<script type="text/javascript" src="js/pdfobject.js"></script>
+<script type="text/javascript">
+window.onload = function (){
+	var success = new PDFObject({ url: "pdf/rpp2014-rev-quark-masses-small.pdf" }).embed("pdf");	
+};
+</script>
+</head>
+
+<body>
+<ul id="navlist-main">
+<!-- GAUGE AND HIGGS BOSONS  -->                   
+		<li><a onclick="goBack()">Back</a></li>
+        </ul>
+<script>
+function goBack() {
+    window.history.back()
+}
+</script>
+
+<div id="pdf">It appears you don't have Adobe Reader or PDF support in this web browser. <a href="pdf/rpp2014-rev-quark-masses-small.pdf">Click here to download the PDF</a></div>
+
+<p><a href="/index.php">&laquo; Return to PDFObject home</a></p>
+
+</body>
+</html>
